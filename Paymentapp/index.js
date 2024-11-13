@@ -1,6 +1,6 @@
 // index.js
-// const cors = require('cors');
-// app.use(cors())
+const cors = require('cors');
+app.use(cors())
 const express = require("express");
 const bodyParser = require("body-parser");
 const connectDB = require("./db");
